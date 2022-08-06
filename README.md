@@ -1,14 +1,15 @@
 # simple_shell
-#Table of Contents
-[*#Description](https://github.com/Eben-123/simple_shell)
-[*#File Structure](https://github.com/Eben-123/simple_shell)
-[*#Requirements](https://github.com/Eben-123/simple_shell)
-[*#Installation](https://github.com/Eben-123/simple_shell)
-[*#Authors](https://github.com/Eben-123/simple_shell)
+##Table of Contents
+[*Description](https://github.com/Eben-123/simple_shell)
+[*File Structure](https://github.com/Eben-123/simple_shell)
+[*Requirements](https://github.com/Eben-123/simple_shell)
+[*Installation](https://github.com/Eben-123/simple_shell)
+[*Authors](https://github.com/Eben-123/simple_shell)
 
-#Description
+###Description
 simple_shell is a command line interpreter, or shell, in the tradition of the first Unix shell written by Ken Thompson in 1971. This shell is intentionally minimalistic, yet includes the basic functionality of a traditional Unix-like command line user interface. Standard functions and system calls employed in simple_shell include: access, execve, exit, fork, free, fstat, getline, malloc, perror, signal, stat, wait, write.
-#File Structure
+####File Structure
+
 *AUTHORS - List of contributors to this repository
 *man_1_simple_shell - Manual page for the simple_shell
 *shell.h - program header file
@@ -52,13 +53,14 @@ _strcat - concatenates two strings with a / in the middle
 _strlen - calculates the length of a string
 *tokenize.c - tokenizing function
 *tokenize - creates an array of tokens from a buffer with a specified delimiter
-#Requirements
+
+####Requirements
 simple_shell is designed to run in the Ubuntu 14.04 LTS linux environment and to be compiled using the GNU compiler collection v. gcc 4.8.4 with flags-Wall, -Werror, -Wextra, and -pedantic.
-#Installation
+####Installation
 *Clone this repository
 *Change directories into the repository: cd simple_shell
 *Compile: gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 *Run the shell in interactive mode: ./hsh
 Or run the shell in non-interactive mode: example echo "pwd" | ./hsh
-#Authors
+####Authors
 @ Ebenezer Etsiwah & Grace Olorunfemi Temitayo
